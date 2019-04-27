@@ -1,0 +1,10 @@
+{
+    "target_overrides": {
+        "NRF52_DK": {
+            "target.features_remove": ["BLE"],
+            "target.uart_hwfc": 0,
+            "target.extra_labels_add": ["SOFTDEVICE_NONE", "SDK_14_2"],
+            "target.extra_labels_remove": ["SOFTDEVICE_COMMON", "SOFTDEVICE_S132_FULL", "NORDIC_SOFTDEVICE", "NORDIC_CORDIO", "CORDIO", "CORDIO_LL"]            
+        }        
+    }
+}
